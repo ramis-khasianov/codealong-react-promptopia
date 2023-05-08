@@ -52,3 +52,16 @@ Create a folder called `app` from scratch (delete everything create-nex-app crea
 Create `page.jsx` file and run `rafce` snippet in it - it will be out homepage
 
 Create `layout.jsx` file and run `rafce` snippet in it - it will be layout holding app-wide styles and metadata in it
+
+
+## Setting up Google auth
+
+Go to [Google Developers Console](https://console.developers.google.com/) and create a new project (top left-ish corner)
+
+Select it and go to APIs & Services > OAuth consent screen. Fill out app name and contact info for support and developer
+
+Then go to Credentials and create a new OAuth client ID
+
+Select Web application and fill out the form with your app's URL (http://localhost:3000) and authorized redirect URI (http://localhost:3000/api/auth/callback/google)
+
+Then insert them in `.env` file in root folder just like in `.env.example` file

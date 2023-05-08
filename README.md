@@ -41,3 +41,12 @@ yarn dev
 # or
 pnpm dev
 ```
+
+
+## Project Notes
+
+### App folder
+
+Create a folder called `app` from scratch (delete everything create-nex-app created)
+
+Create `page.jsx` file and run `rafce` snippet in it

@@ -49,4 +49,6 @@ pnpm dev
 
 Create a folder called `app` from scratch (delete everything create-nex-app created)
 
-Create `page.jsx` file and run `rafce` snippet in it
+Create `page.jsx` file and run `rafce` snippet in it - it will be out homepage
+
+Create `layout.jsx` file and run `rafce` snippet in it - it will be layout holding app-wide styles and metadata in it

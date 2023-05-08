@@ -71,7 +71,7 @@ Then insert them in `.env` file in root folder just like in `.env.example` file
 
 Go to [MongoDB](https://www.mongodb.com/atlas) and register. Create a new free tier cluster
 
-Next you go to Database Access and create new user
+Next you go to Database Access and create new user, giving him acces to read and write to any database
 
 Nex you need to go to Network Access and add your IP address to whitelist (or just press "Allow access from anywhere")
 

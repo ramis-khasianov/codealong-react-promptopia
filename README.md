@@ -65,3 +65,16 @@ Then go to Credentials and create a new OAuth client ID
 Select Web application and fill out the form with your app's URL (http://localhost:3000) and authorized redirect URI (http://localhost:3000/api/auth/callback/google)
 
 Then insert them in `.env` file in root folder just like in `.env.example` file
+
+
+## Setting up MongoDB Database
+
+Go to [MongoDB](https://www.mongodb.com/atlas) and register. Create a new free tier cluster
+
+Next you go to Database Access and create new user
+
+Nex you need to go to Network Access and add your IP address to whitelist (or just press "Allow access from anywhere")
+
+Then go to Database > Connect > Connect your application and copy the connection string
+
+Then insert it in `.env` file in root folder just like in `.env.example` file

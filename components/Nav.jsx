@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from 'next/link';
 import Image from "next/image";
@@ -36,7 +36,7 @@ const Nav = () => {
       <div className="sm:flex hidden">
           {session?.user ? (
             <div className="flex gap-3 md:gap-5">
-              <Link href="/create-promt" className="black_btn">
+              <Link href="/create-prompt" className="black_btn">
                 Create Post
               </Link>
 
